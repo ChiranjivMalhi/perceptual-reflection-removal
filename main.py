@@ -416,8 +416,8 @@ else:
         return input_names
 
     # Please replace with your own test image path
-    test_path = ["./test_images/CEILNet/"] #["./test_images/real/"]
-    subtask="CEILNet" # if you want to save different testset separately
+    test_path = ["./test_images/real/"] #["./test_images/real/"]
+    subtask="real" # if you want to save different testset separately
     val_names=prepare_data_test(test_path)
 
     for val_path in val_names:
