@@ -1,6 +1,6 @@
 # Reflection-Removal
 
-This code is based on tensorflow. It has been tested on Ubuntu 16.04 LTS.
+This code is based on tensorflow.
 
 ## ![Our result compared against CEILNet on real images.](./teaser/teaser.png)
 
@@ -14,29 +14,9 @@ This code is based on tensorflow. It has been tested on Ubuntu 16.04 LTS.
 
 ## Testing
 
-* Change `test_path` (line 419) to your test image folder. If you want to test on the provided test images (e.g. in `./test_images/real/`), keep it as it is.
-* test results can be found in `./test_results/`
+* If you want to test on the provided test images (e.g. in `./test_images/real/`), keep it as it is.
+* If you want to test on your images upload the images in (e.g. in `./test_images/real/`) folder.
+* Then run the last command on Colab again.
+* Test results can be found in `./test_results/`
 
-Then, run
-
-`$ python3 main.py --task pre-trained --is_training 0`
-
-
-## Acknowledgement
-Part of the code is based upon [FastImageProcessing](https://github.com/CQFIO/FastImageProcessing)
-
-## Citation
-If you find this work useful for your research, please cite:
-
-```
-@inproceedings{zhang2018single,
-  title = {Single Image Reflection Separation with Perceptual Losses},
-  author = {Zhang, Xuaner and Ng, Ren and Chen, Qifeng}
-  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
-  year = {2018}
-}
-```
-
-## Contact
-Please contact me if there is any question (Cecilia Zhang <cecilia77@berkeley.edu>)
 
