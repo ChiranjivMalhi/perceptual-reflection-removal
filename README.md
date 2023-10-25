@@ -1,6 +1,6 @@
 # Reflection-Removal
 
-This code is based on tensorflow.
+This code is based on tensorflow. The github link for the code is https://github.com/ChiranjivMalhi/perceptual-reflection-removal.
 
 ## ![Our result compared against CEILNet on real images.](./teaser/teaser.png)
 
